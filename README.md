@@ -24,4 +24,4 @@ This site highlights my background as a recent Computer Science graduate, full-s
 ## Contact
 
 LinkedIn: https://www.linkedin.com/in/robinson-jabari/
-GitHub: https://github.com/robinsonjabari
+Portfolio Link: https://robinsonjabari.github.io/personal-portfolio/
