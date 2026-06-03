@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.root": "/",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.css": "css",
+    "*.html": "html"
+  }
+}
