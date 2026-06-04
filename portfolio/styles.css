@@ -388,7 +388,7 @@ h3 {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -399,26 +399,6 @@ h3 {
 
 .skill-panel h3 {
   color: var(--gold);
-}
-.skill-list {
-  display: grid;
-  gap: 8px;
-  margin: 0;
-  padding: 0;
-  color: var(--paper-muted);
-  list-style: none;
-}
-
-.skill-list li {
-  position: relative;
-  padding-left: 18px;
-}
-
-.skill-list li::before {
-  position: absolute;
-  left: 0;
-  color: var(--gold);
-  content: "/";
 }
 
 .timeline-section {
@@ -452,58 +432,12 @@ h3 {
 
 .credential-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
 }
 
 .credential-list article {
   padding: 22px;
-}
-.credential-card {
-  display: flex;
-  min-height: 260px;
-  flex-direction: column;
-}
-
-.credential-badge {
-  display: inline-flex;
-  width: fit-content;
-  min-height: 34px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 18px;
-  padding: 0 12px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--gold);
-  background: rgba(230, 197, 122, 0.08);
-  font-size: 0.78rem;
-  font-weight: 800;
-}
-
-.credential-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: auto;
-  padding-top: 20px;
-}
-
-.credential-actions a {
-  display: inline-flex;
-  min-height: 40px;
-  align-items: center;
-  justify-content: center;
-  padding: 0 12px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  color: var(--gold);
-  font-size: 0.86rem;
-  font-weight: 800;
-}
-
-.credential-actions a:hover {
-  color: var(--teal);
 }
 
 .contact-section {
@@ -554,15 +488,9 @@ h3 {
 .site-footer p {
   margin: 0;
 }
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 16px;
-}
 
 @media (max-width: 1000px) {
-  .intro-layout,
+  .intro-section,
   .contact-section,
   .project-grid {
     grid-template-columns: 1fr;
@@ -604,23 +532,6 @@ h3 {
       url("assets/jbari-theme.png") center / cover no-repeat;
   }
 
-  .intro-layout {
-    gap: 28px;
-  }
-
-  .intro-content,
-  .intro-content h2 {
-    max-width: 100%;
-  }
-
-  .intro-content h2 {
-    font-size: clamp(2rem, 10vw, 3rem);
-  }
-
-  .intro-copy {
-    font-size: 1rem;
-  }
-
   h1 {
     max-width: 100%;
     font-size: 2rem;
@@ -641,18 +552,5 @@ h3 {
     padding: 22px;
   }
 }
-<<<<<<< HEAD
 
 
-
-
-
-
-
-
-
-
-=======
-
-
->>>>>>> 656d9136e5e24d7579e368b13674cb4677631433

@@ -1,0 +1,29 @@
+﻿# Personal Portfolio
+
+Responsive portfolio website for Jabari Robinson, showcasing selected projects, technical skills, education, certifications, and software development experience.
+
+## Live Site
+
+https://robinsonjabari.github.io/personal-portfolio/
+
+## Built With
+
+- HTML
+- CSS
+- Responsive Design
+- GitHub Pages
+
+## Featured Projects
+
+- UNCP Navigation System
+- EndlessEscape (Unity 6 Game)
+
+## About Me
+
+I'm a Computer Science graduate from the University of North Carolina at Pembroke with interests in full-stack development, backend systems, databases, and software engineering.
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/robinson-jabari/
+- GitHub: https://github.com/robinsonjabari
+- Email: jbrobinson15@icloud.com
