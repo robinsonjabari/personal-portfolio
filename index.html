@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio for Jabari Robinson, a Computer Science graduate and full-stack developer focused on backend systems and financial technology."
+      content="Portfolio for Jabari Robinson, a Computer Science graduate, Software Engineer, and Full-Stack Developer focused on full-stack development and backend engineering."
     />
-    <title>Jabari Robinson | Full-Stack Developer</title>
+    <title>Jabari Robinson | Software Engineer &amp; Full-Stack Developer</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -17,9 +17,9 @@
         <span>Jabari Robinson</span>
       </a>
       <nav class="nav-links" aria-label="Portfolio sections">
-        <a href="#work">Work</a>
-        <a href="#skills">Skills</a>
+        <a href="#work">Projects</a>
         <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -28,26 +28,36 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-media" aria-hidden="true"></div>
         <div class="hero-content">
-          <p class="eyebrow">
-            Computer Science Graduate / Full-Stack Developer
-          </p>
+          <p class="eyebrow">Software Engineer / Full-Stack Developer</p>
           <h1 id="hero-title">
-            Building scalable applications from interface to backend.
+            Building reliable software from interface to backend.
           </h1>
           <p class="hero-copy">
-            Software engineer focused on full-stack development, backend
-            systems, and financial technology. I build practical applications
-            with clear architecture, reliable APIs, and room to scale.
+            Computer Science graduate with experience building full-stack
+            applications and recent intensive training across software
+            engineering, Python, SQL, backend development, and data engineering.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#work">View Projects</a>
             <a
-              class="button primary"
+              class="button secondary"
+              href="https://github.com/robinsonjabari"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+            <a
+              class="button secondary"
               href="assets/Jabari-Robinson-Resume.pdf"
               download
-              >Download Resume</a
+              >Resume</a
             >
-            <a class="button secondary" href="mailto:jbrobinson15@icloud.com"
-              >Contact Me</a
+            <a
+              class="button text-button"
+              href="https://www.linkedin.com/in/robinson-jabari/"
+              target="_blank"
+              rel="noreferrer"
+              >LinkedIn</a
             >
           </div>
         </div>
@@ -67,22 +77,23 @@
           <div class="intro-content">
             <div class="section-heading">
               <h2 id="intro-title">
-                Recent graduate. Full-stack builder. Continuous learner.
+                Recent Computer Science graduate building real full-stack
+                software.
               </h2>
             </div>
             <div class="intro-copy">
               <p>
-                I recently earned my B.S. in Computer Science from the
-                University of North Carolina at Pembroke. I am passionate about
-                software engineering, with a growing focus on backend systems,
-                scalable application design, and financial technology.
+                I earned my B.S. in Computer Science from the University of
+                North Carolina at Pembroke in May 2026. After graduation, I
+                continued developing professionally through Revature's intensive
+                10-week Software Engineering Training Program.
               </p>
               <p>
-                I am building projects beyond coursework while expanding my
-                full-stack JavaScript skills through IBM coursework and
-                certification. I enjoy turning real problems into structured,
-                useful software and continuously improving how I design, build,
-                and collaborate.
+                That training expanded my work with Python, SQL, object-oriented
+                programming, databases, data engineering, and collaborative
+                software development practices. I am currently building Campus
+                Compass, a full-stack campus navigation platform, while pursuing
+                entry-level and associate Software Engineering opportunities.
               </p>
             </div>
           </div>
@@ -96,43 +107,62 @@
       >
         <div class="section-heading">
           <p class="eyebrow">Selected Work</p>
-          <h2 id="work-title">Projects & Repositories</h2>
+          <h2 id="work-title">Projects &amp; Repositories</h2>
         </div>
 
-        <div class="project-grid">
-          <article class="project-card feature-card">
-            <div class="project-meta">
-              <span>Featured Full-Stack Platform</span>
-              <span>June 2026 - Present</span>
+        <article class="project-card feature-card">
+          <div class="project-meta">
+            <span>Flagship Full-Stack Platform</span>
+            <span>June 2026 - Present</span>
+          </div>
+          <div class="project-title-row">
+            <h3>Campus Compass</h3>
+            <span class="status-badge">In Development</span>
+          </div>
+          <p class="project-lead">
+            A full-stack campus navigation platform designed to help university
+            students, faculty, and visitors locate campus buildings, services,
+            and resources across multiple campus environments.
+          </p>
+          <div class="tag-list" aria-label="Campus Compass technologies">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>PostgreSQL</span>
+            <span>Prisma ORM</span>
+            <span>JWT</span>
+            <span>bcrypt</span>
+          </div>
+          <div class="feature-details">
+            <div>
+              <h4>Engineering Focus</h4>
+              <ul class="impact-list">
+                <li>RESTful API development with modular routes and controllers.</li>
+                <li>Relational modeling for users, campuses, roles, and resources.</li>
+                <li>JWT authentication middleware and bcrypt password hashing.</li>
+              </ul>
             </div>
-            <div class="project-title-row">
-              <h3>Campus Compass - Full-Stack Campus Navigation Platform</h3>
-              <span class="status-badge">In Development</span>
+            <div>
+              <h4>Current Direction</h4>
+              <ul class="impact-list">
+                <li>Building a scalable backend architecture with Prisma and PostgreSQL.</li>
+                <li>Developing the React frontend around practical campus search flows.</li>
+                <li>Using feature-based Git workflows to organize active development.</li>
+              </ul>
             </div>
-            <a
-              class="project-link"
-              href="https://github.com/robinsonjabari"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="View Jabari Robinson's GitHub profile for Campus Compass updates"
-              >GitHub Profile</a
-            >
-            <p>
-              Building a scalable campus navigation platform designed to help
-              students locate campus buildings, services, and resources.
-            </p>
-            <ul class="impact-list">
-              <li>TypeScript, Express.js, Prisma ORM, and PostgreSQL.</li>
-              <li>
-                REST API development, authentication, and relational data
-                modeling.
-              </li>
-              <li>
-                Feature-based Git workflow and scalable backend architecture.
-              </li>
-            </ul>
-          </article>
+          </div>
+          <a
+            class="project-link"
+            href="https://github.com/robinsonjabari/campus-compass"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="View Campus Compass on GitHub"
+            >View Repository</a
+          >
+        </article>
 
+        <div class="secondary-projects" aria-label="Secondary projects">
           <article class="project-card">
             <div class="project-meta">
               <span>Unity Game</span>
@@ -148,22 +178,13 @@
               >View Repository</a
             >
             <p>
-              A 3D endless runner built in Unity 6 with C#, combining
-              object-oriented programming with responsive gameplay systems and
-              progressively increasing difficulty.
+              A 3D endless runner built in Unity 6 with C#, using reusable
+              gameplay components and progressively increasing difficulty.
             </p>
-            <ul class="impact-list">
-              <li>
-                Built collision detection, coin collection, and player state
-                systems.
-              </li>
-              <li>
-                Implemented procedural obstacle spawning and exponential speed
-                scaling.
-              </li>
-              <li>
-                Used reusable C# components to keep gameplay logic organized.
-              </li>
+            <ul class="impact-list compact-list">
+              <li>Built collision detection, coin collection, and player state systems.</li>
+              <li>Implemented randomized obstacle spawning and exponential speed scaling.</li>
+              <li>Applied object-oriented programming to organize gameplay logic.</li>
             </ul>
           </article>
 
@@ -182,27 +203,78 @@
               >View Repository</a
             >
             <p>
-              A responsive portfolio designed to present software projects,
-              technical growth, credentials, and professional experience through
-              a consistent personal brand.
+              A responsive GitHub Pages portfolio built to present projects,
+              technical skills, credentials, and professional growth through a
+              consistent personal brand.
             </p>
-            <ul class="impact-list">
+            <ul class="impact-list compact-list">
               <li>Built with semantic HTML5 and responsive CSS3.</li>
-              <li>Deployed and maintained through GitHub Pages.</li>
-              <li>Continuously improved as new work and credentials are added.</li>
+              <li>Maintains accessible structure, clear navigation, and relative assets.</li>
+              <li>Deployed through GitHub Pages for resume and application access.</li>
             </ul>
           </article>
+        </div>
+      </section>
 
-          <article class="project-card future-card">
-            <div class="project-meta">
-              <span>Financial Technology</span>
-              <span class="status-badge">Currently in Development</span>
-            </div>
-            <h3>KStrike Hunter (Coming Soon)</h3>
+      <section
+        class="section timeline-section"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">Professional Development</p>
+          <h2 id="experience-title">Education, training, and current focus.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="timeline-date">May 2026</p>
+            <h3>B.S. Computer Science</h3>
+            <p>University of North Carolina at Pembroke</p>
+          </article>
+          <article class="timeline-item highlight-item">
+            <p class="timeline-date">June 2026 - August 2026</p>
+            <h3>Software Engineering Training Program</h3>
             <p>
-              A real-time financial market analysis platform focused on
-              evaluating short-duration prediction markets using live market
-              data, statistical analysis, and interactive visualizations.
+              Completed Revature's intensive 10-week program covering Python,
+              SQL, object-oriented programming, SDLC, Agile, Git workflows,
+              PostgreSQL, relational databases, joins, transactions, data
+              modeling, file I/O, JSON processing, and exception handling.
+            </p>
+          </article>
+          <article class="timeline-item highlight-item">
+            <p class="timeline-date">Data Engineering Training</p>
+            <h3>Distributed Data Foundations</h3>
+            <p>
+              Practiced data engineering concepts with Apache Spark, PySpark,
+              Spark SQL, Hadoop, HDFS, Hive, RDDs, DataFrames, transformations,
+              aggregations, partitioning, caching, and distributed processing.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">June 2026 - Present</p>
+            <h3>Campus Compass</h3>
+            <p>
+              Active full-stack software engineering project focused on backend
+              architecture, authentication, relational data modeling, and React
+              frontend development.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">Current</p>
+            <h3>Software Engineering Opportunities</h3>
+            <p>
+              Pursuing Associate, Junior, Entry-Level, Full-Stack, and Backend
+              Software Engineering roles.
+            </p>
+          </article>
+          <article class="timeline-item additional-item">
+            <p class="timeline-date">May 2023 - Aug 2025</p>
+            <h3>Additional Experience: Walmart Online Pickup &amp; Delivery</h3>
+            <p>
+              Worked in a high-volume team environment managing daily customer
+              orders while maintaining accuracy, communication, organization,
+              and time management.
             </p>
           </article>
         </div>
@@ -215,7 +287,7 @@
       >
         <div class="section-heading">
           <p class="eyebrow">Technical Stack</p>
-          <h2 id="skills-title">Skills & Technologies</h2>
+          <h2 id="skills-title">Skills &amp; Technologies</h2>
         </div>
         <div class="skills-grid">
           <div class="skill-panel">
@@ -223,8 +295,8 @@
             <ul class="skill-list">
               <li>JavaScript</li>
               <li>TypeScript</li>
-              <li>Java</li>
               <li>Python</li>
+              <li>Java</li>
               <li>C#</li>
               <li>SQL</li>
             </ul>
@@ -247,15 +319,28 @@
               <li>Express.js</li>
               <li>REST APIs</li>
               <li>Prisma ORM</li>
-              <li>Authentication</li>
+              <li>JWT Authentication</li>
             </ul>
           </div>
           <div class="skill-panel">
             <h3>Databases</h3>
             <ul class="skill-list">
               <li>PostgreSQL</li>
+              <li>Relational Database Design</li>
               <li>SQL</li>
-              <li>Database Design</li>
+            </ul>
+          </div>
+          <div class="skill-panel">
+            <h3>Data Engineering</h3>
+            <ul class="skill-list">
+              <li>Apache Spark</li>
+              <li>PySpark</li>
+              <li>Spark SQL</li>
+              <li>Hadoop</li>
+              <li>HDFS</li>
+              <li>Hive</li>
+              <li>RDDs</li>
+              <li>DataFrames</li>
             </ul>
           </div>
           <div class="skill-panel">
@@ -265,65 +350,12 @@
               <li>GitHub</li>
               <li>Docker</li>
               <li>Vite</li>
-              <li>VS Code</li>
-              <li>Unity</li>
               <li>npm</li>
+              <li>VS Code</li>
               <li>pgAdmin</li>
+              <li>Unity 6</li>
             </ul>
           </div>
-          <div class="skill-panel">
-            <h3>Concepts</h3>
-            <ul class="skill-list">
-              <li>Object-Oriented Programming</li>
-              <li>Full-Stack Development</li>
-              <li>REST Architecture</li>
-              <li>API Development</li>
-              <li>Agile & Scrum</li>
-              <li>Problem Solving</li>
-              <li>Responsive Design</li>
-              <li>Version Control</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section timeline-section"
-        id="experience"
-        aria-labelledby="experience-title"
-      >
-        <div class="section-heading">
-          <p class="eyebrow">Timeline</p>
-          <h2 id="experience-title">
-            Education, work experience, and current focus.
-          </h2>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline-item">
-            <p class="timeline-date">Graduated May 2026</p>
-            <h3>B.S. Computer Science</h3>
-            <p>University of North Carolina at Pembroke</p>
-          </article>
-          <article class="timeline-item">
-            <p class="timeline-date">May 2023 - Aug 2025</p>
-            <h3>Walmart Associate / Online Pickup & Delivery</h3>
-            <p>
-              Collaborated in a fast-paced team environment to manage 180+
-              customer orders daily while maintaining accuracy and efficiency.
-              Demonstrated organization, communication, and time management in
-              a high-volume operation.
-            </p>
-          </article>
-          <article class="timeline-item">
-            <p class="timeline-date">Current Focus</p>
-            <h3>Seeking Software Engineering Opportunities</h3>
-            <p>
-              Pursuing software developer and full-stack developer roles where I
-              can contribute to backend systems, scalable applications, and
-              financial technology products.
-            </p>
-          </article>
         </div>
       </section>
 
@@ -331,9 +363,9 @@
         class="section credentials-section"
         aria-labelledby="credentials-title"
       >
-        <div class="section-heading">
+        <div class="section-heading compact-heading">
           <p class="eyebrow">Credentials</p>
-          <h2 id="credentials-title">Certifications</h2>
+          <h2 id="credentials-title">Verified Certifications</h2>
         </div>
         <div class="credential-list">
           <article class="credential-card">
@@ -346,19 +378,19 @@
                 href="https://www.coursera.org/account/accomplishments/verify/8UNHZU8LC9WD"
                 target="_blank"
                 rel="noreferrer"
-                >Verify Credential</a
+                >Verify</a
               >
               <a
                 href="assets/certifications/ibm-software-engineering.pdf"
                 target="_blank"
                 rel="noreferrer"
-                >View PDF</a
+                >PDF</a
               >
             </div>
           </article>
           <article class="credential-card">
             <div class="credential-badge">IBM</div>
-            <h3>Introduction to HTML, CSS, & JavaScript</h3>
+            <h3>Introduction to HTML, CSS, &amp; JavaScript</h3>
             <p>IBM via Coursera, issued June 2026.</p>
             <p class="credential-id">Credential ID: N8YKFN1UX70N</p>
             <div class="credential-actions">
@@ -366,13 +398,13 @@
                 href="https://www.coursera.org/account/accomplishments/verify/N8YKFN1UX70N"
                 target="_blank"
                 rel="noreferrer"
-                >Verify Credential</a
+                >Verify</a
               >
               <a
                 href="assets/certifications/ibm-html-css-javascript.pdf"
                 target="_blank"
                 rel="noreferrer"
-                >View PDF</a
+                >PDF</a
               >
             </div>
           </article>
@@ -388,7 +420,7 @@
                 href="assets/certifications/responsive-web-design.pdf"
                 target="_blank"
                 rel="noreferrer"
-                >View PDF</a
+                >PDF</a
               >
             </div>
           </article>
@@ -423,7 +455,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>&copy; 2026 J'BARI & CO. / Jabari Robinson.</p>
+      <p>&copy; 2026 J'BARI &amp; CO. / Jabari Robinson.</p>
       <div class="footer-links" aria-label="Footer links">
         <a
           href="https://github.com/robinsonjabari"
@@ -443,3 +475,5 @@
     </footer>
   </body>
 </html>
+
+
