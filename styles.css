@@ -206,12 +206,6 @@ h4 {
   background: rgba(244, 239, 228, 0.05);
 }
 
-.button.text-button {
-  color: var(--paper-muted);
-  border-color: transparent;
-  background: transparent;
-}
-
 /* Shared section spacing. */
 .section {
   padding: clamp(64px, 8vw, 112px) clamp(20px, 5vw, 72px);
@@ -493,6 +487,15 @@ h4 {
   opacity: 0.88;
 }
 
+
+.timeline-detail {
+  display: grid;
+  gap: 14px;
+}
+
+.timeline-detail h4 {
+  margin-top: 8px;
+}
 .timeline-date {
   color: var(--teal);
   font-size: 0.86rem;
